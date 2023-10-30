@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-image: url("https://www.pharmnews.com/news/photo/202206/205376_75336_1939.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: pink;
+}
+.container {
+    font-family: arial;
+    font-size: 24px;
+    margin: auto;
+    width: 350px;
+    height: 200px;
+    outline: dashed 1px black;
+    /* 설정 */
+    position: relative;
+  }
+  
+  .child {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    /* 수직 중앙 정렬하기 */
+    margin: auto;
+  }
+h1{
+    text-align: center;
+}
